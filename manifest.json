@@ -5,20 +5,18 @@
   "description": "Use any AI model via OpenRouter — no Claude or OpenAI subscription required.",
   "main": "dist/index.js",
   "permissions": ["network", "ai"],
-  "contributes": {
-    "panels": [
-      {
-        "id": "openrouter-settings",
-        "title": "OpenRouter",
-        "icon": "settings",
-        "location": "sidebar"
-      }
-    ],
-    "slashCommands": [
-      {
-        "name": "openrouter",
-        "description": "Switch active OpenRouter model or check connection status"
-      }
-    ]
-  }
+  "panels": [
+    {
+      "id": "openrouter-settings",
+      "title": "OpenRouter",
+      "icon": "settings",
+      "location": "sidebar"
+    }
+  ],
+  "slashCommands": [
+    {
+      "name": "openrouter",
+      "description": "Switch active OpenRouter model or check connection status"
+    }
+  ]
 }
